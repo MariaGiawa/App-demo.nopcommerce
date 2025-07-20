@@ -1,0 +1,36 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1752938368642,2742,Open Url,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,8302,683,1,1,null,0,111,2133
+1752938368743,2742,1-1 Open URL,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,8302,683,1,1,https://demowebshop.tricentis.com/,2740,0,2133
+1752938371496,3101,Click on Category,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,5842,969,1,1,null,0,1078,0
+1752938372573,3101,2-1 Click on Category,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,5842,969,1,1,https://demowebshop.tricentis.com/electronics,3100,0,0
+1752938375675,313,Click on Product,404,"Number of samples in transaction : 1, number of failing samples : 1",Scenario 10 - Confirm Order 1-1,,false,,20203,974,1,1,null,0,1,0
+1752938375675,313,2-2 Click On Product,404,Not Found,Scenario 10 - Confirm Order 1-1,text,false,,20203,974,1,1,https://demowebshop.tricentis.com/Not%20Found,310,0,0
+1752938375990,290,Click on Log in,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,6147,778,1,1,null,0,6894,0
+1752938382884,290,2-1 Click on Log in,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,6147,778,1,1,https://demowebshop.tricentis.com/login,289,0,0
+1752938383174,1011,Input Username & Password and clik login,200,"Number of samples in transaction : 2, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,16864,3099,1,1,null,0,33584,0
+1752938416757,657,3-1 Input Username & Password,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,8851,2053,1,1,https://demowebshop.tricentis.com/,259,0,0
+1752938416757,259,3-1 Input Username & Password-0,302,Found,Scenario 10 - Confirm Order 1-1,text,true,,838,915,1,1,https://demowebshop.tricentis.com/login,259,0,0
+1752938417022,392,3-1 Input Username & Password-1,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,8013,1138,1,1,https://demowebshop.tricentis.com/,391,0,0
+1752938417415,354,3-2 Clik login,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,8013,1046,1,1,https://demowebshop.tricentis.com/,353,0,0
+1752938417770,423,Click on Shopping cart,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,4696,1045,1,1,null,0,7561,0
+1752938425329,423,4-1 Click on Shopping cart,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,4696,1045,1,1,https://demowebshop.tricentis.com/cart,422,0,0
+1752938425753,1172,Click on Checkout,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,5205,3207,1,1,null,0,8334,644
+1752938434086,1172,5-1 Click on Checkout,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,5205,3207,1,1,https://demowebshop.tricentis.com/cart,879,0,644
+1752938434086,879,5-1 Click on Checkout-0,302,Found,Scenario 10 - Confirm Order 1-1,text,true,,509,2115,1,1,https://demowebshop.tricentis.com/onepagecheckout,879,0,644
+1752938434965,293,5-1 Click on Checkout-1,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,4696,1092,1,1,https://demowebshop.tricentis.com/cart,293,0,0
+1752938435259,277,Billing Address and Clik Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,580,1614,1,1,null,0,7334,0
+1752938442593,277,6-1 Billing Address and Click on Continue,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,580,1614,1,1,https://demowebshop.tricentis.com/checkout/OpcSaveBilling/,277,0,0
+1752938442871,535,Shipping address and Click on Continue,200,"Number of samples in transaction : 2, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,6853,2646,1,1,null,0,12371,0
+1752938455238,234,7-1 Shipping address,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,580,1581,1,1,https://demowebshop.tricentis.com/checkout/OpcSaveShipping/,234,0,0
+1752938455474,301,7-2  Click on Continue,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,6273,1065,1,1,https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart,301,0,0
+1752938455776,1000,Shipping method and Click on Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,580,1177,1,1,null,0,299903,762
+1752938755679,1000,8-1 Shipping method and Click on Continue,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,580,1177,1,1,https://demowebshop.tricentis.com/checkout/OpcSaveShippingMethod/,1000,0,762
+1752938756680,882,Paymen method and Clik on Continue,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,580,1165,1,1,null,0,292648,650
+1752939049326,882,9-1 Paymen method and Clik on Continue,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,580,1165,1,1,https://demowebshop.tricentis.com/checkout/OpcSavePaymentMethod/,882,0,650
+1752939050209,628,Paymen Information,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,580,1125,1,1,null,0,303640,389
+1752939353848,628,9-1 9-1 Paymen Information and Click on Continue,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,580,1125,1,1,https://demowebshop.tricentis.com/checkout/OpcSavePaymentInfo/,628,0,389
+1752939354477,1317,Confirm Order,200,"Number of samples in transaction : 2, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,5465,2197,1,1,null,0,155051,702
+1752939509526,938,11-1 Click Confirm,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,580,1122,1,1,https://demowebshop.tricentis.com/checkout/OpcConfirmOrder/,938,0,702
+1752939510465,379,11- Notif Order Complate,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,4885,1075,1,1,https://demowebshop.tricentis.com/checkout/completed/,379,0,0
+1752939510845,501,Order Detail,200,"Number of samples in transaction : 1, number of failing samples : 0",Scenario 10 - Confirm Order 1-1,,true,,6087,1080,1,1,null,0,10702,0
+1752939521547,501,12-1 Order Detail,200,OK,Scenario 10 - Confirm Order 1-1,text,true,,6087,1080,1,1,https://demowebshop.tricentis.com/orderdetails/2049655,500,0,0
